@@ -1,13 +1,13 @@
 {
   "name": "bootcamp-terminal-tests",
   "version": "1.0.0",
-  "description": "",
   "main": "countAllFromTown.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "mocha": ".node_modules/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/fistozvoti/bootcamp-terminal-tests/issues"
   },
-  "homepage": "https://github.com/fistozvoti/bootcamp-terminal-tests#readme"
+  "homepage": "https://github.com/fistozvoti/bootcamp-terminal-tests#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "description": ""
 }
